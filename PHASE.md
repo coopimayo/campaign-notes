@@ -127,7 +127,7 @@ New file: `backend/src/services/campaign-service.ts`
 
 ---
 
-## Step 6 — Campaign routes
+## Step 6 — Campaign routes ✅
 
 New file: `backend/src/routes/campaigns.ts`
 

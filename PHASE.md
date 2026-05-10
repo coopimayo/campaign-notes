@@ -115,7 +115,7 @@ the shared-package decision until the first user-defined type lands
 
 ---
 
-## Step 5 — CampaignService
+## Step 5 — CampaignService ✅
 
 New file: `backend/src/services/campaign-service.ts`
 

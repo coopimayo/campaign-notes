@@ -37,7 +37,7 @@ the two new keys.
 
 ---
 
-## Step 1 — Install dependencies
+## Step 1 — Install dependencies ✅
 
 ```sh
 # backend/
@@ -52,7 +52,7 @@ package, so no separate `@better-auth/react` install.
 
 ---
 
-## Step 2 — Define the database schema
+## Step 2 — Define the database schema ✅
 
 File: [backend/src/db/schema.ts](backend/src/db/schema.ts)
 
@@ -77,7 +77,7 @@ then commit). The two app tables follow [PLAN.md](PLAN.md) §4.
 
 ---
 
-## Step 3 — Wire Better-Auth into the backend
+## Step 3 — Wire Better-Auth into the backend ✅
 
 New file: `backend/src/auth.ts`
 

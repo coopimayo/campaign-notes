@@ -3,11 +3,20 @@ import { Hono } from 'hono'
 import { logger } from 'hono/logger'
 import { cors } from 'hono/cors'
 import { serve } from '@hono/node-server'
+import { auth, type AppEnv } from './auth.js'
 
-const app = new Hono()
+const app = new Hono<AppEnv>()
 
 app.use('*', logger())
-app.use('/api/*', cors({ origin: process.env.CORS_ORIGIN ?? '*' }))
+app.use(
+  '/api/*',
+  cors({
+    origin: process.env.CORS_ORIGIN ?? 'http://localhost:5173',
+    credentials: true,
+  }),
+)
+
+app.on(['POST', 'GET'], '/api/auth/*', (c) => auth.handler(c.req.raw))
 
 app.get('/health', (c) => c.json({ status: 'ok' }))
 

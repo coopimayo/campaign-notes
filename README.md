@@ -3,10 +3,7 @@
 A cloud-backed notes app for D&D campaigns, with typed notes (Locations,
 NPCs, Factions, ...) and a graph view that connects them.
 
-See [PLAN.md](PLAN.md) for the design rationale and roadmap. Note: the plan
-was originally drafted for a local-first PWA — the data model and
-extensibility seams still apply, but the architecture section will be
-refreshed to reflect the cloud (client + API + Postgres) approach.
+See [PLAN.md](PLAN.md) for the design rationale, data model, and roadmap.
 
 ## Repo layout
 

@@ -102,7 +102,7 @@ session cookie; `POST /api/auth/sign-out` clears it.
 
 ---
 
-## Step 4 — Domain types + Zod schemas
+## Step 4 — Domain types + Zod schemas ✅
 
 New file: `backend/src/domain/campaign.ts`
 

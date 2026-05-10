@@ -197,7 +197,7 @@ hard bug, not a recoverable error).
 
 ---
 
-## Step 10 — Campaign list + create UI
+## Step 10 — Campaign list + create UI ✅
 
 Files:
 

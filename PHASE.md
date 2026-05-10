@@ -144,7 +144,7 @@ without one, both return `401`. `POST` creates exactly one row each in
 
 ---
 
-## Step 7 — Frontend auth client
+## Step 7 — Frontend auth client ✅
 
 New file: `frontend/src/auth.ts`
 

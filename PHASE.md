@@ -159,7 +159,7 @@ New file: `frontend/src/store/auth.ts`
 
 ---
 
-## Step 8 — Sign-in page + protected route wrapper
+## Step 8 — Sign-in page + protected route wrapper ✅
 
 Files:
 
@@ -183,7 +183,7 @@ signing out and back in with the same credentials works.
 
 ---
 
-## Step 9 — Typed API client
+## Step 9 — Typed API client ✅
 
 New file: `frontend/src/api/campaigns.ts`
 
